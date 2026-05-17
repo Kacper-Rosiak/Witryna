@@ -2,7 +2,7 @@
 name: Chore — zadanie techniczne lub organizacyjne
 about: Użyj tego szablonu do prac porządkowych, konfiguracyjnych lub organizacyjnych.
 title: ''
-labels: 'typ: chore'
+labels: 'type: chore'
 assignees: ''
 ---
  

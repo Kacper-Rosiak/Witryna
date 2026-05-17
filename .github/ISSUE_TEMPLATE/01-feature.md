@@ -2,7 +2,7 @@
 name: Feature — nowa funkcja lub sekcja strony
 about: Użyj tego szablonu do opisania zadania związanego z wykonaniem części strony.
 title: ''
-labels: 'typ: feature'
+labels: 'type: feature'
 assignees: ''
 ---
  

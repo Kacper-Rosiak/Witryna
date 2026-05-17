@@ -2,7 +2,7 @@
 name: Docs — dokumentacja
 about: Użyj tego szablonu do opisania zadania dotyczącego README, Wiki lub opisu projektu.
 title: ''
-labels: 'typ: docs'
+labels: 'type: docs'
 assignees: ''
 ---
  

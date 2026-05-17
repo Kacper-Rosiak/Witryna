@@ -6,7 +6,7 @@ about: Użyj tego szablonu do opisania błędu lub elementu wymagającego korekt
 
 title: ''
 
-labels: 'typ: bug'
+labels: 'type: bug'
 
 assignees: ''
 
