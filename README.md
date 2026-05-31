@@ -1,6 +1,6 @@
 # Praca w zespole
 ## Witryna ćwiczeniowa
-**Grupa XRAY**
+**Grupa XX**
 - Kacper Rosiak
 - Damian Wałęsa
 - Kacper Chróścik
