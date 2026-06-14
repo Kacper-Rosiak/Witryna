@@ -1,0 +1,26 @@
+.hero {
+    padding: 80px 0px;
+    background-color: var(--color-400, #3d488a); 
+    color: #ffffff;
+}
+
+.hero h1 {
+    letter-spacing: -1px;
+}
+
+.hero p {
+    color: var(--color-100, #e6e9fa);
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.hero .btn-warning {
+    background-color: #ffc107;
+    border: none;
+    transition: transform 0.2s ease;
+}
+
+.hero .btn-warning:hover {
+    transform: scale(1.05);
+    background-color: #ffb300;
+}
