@@ -2,19 +2,18 @@
 
 :root {
     --color-bg-light: #E6E6FA;
-    --color-primary: #2241F7;
+    --color-primary: #3D488A;
     --color-secondary: #5E70D6;
-    --color-accent: #3D488A;
-    --color-highlight: #FFA7D6;
-    
+    --color-accent: #9FA7D6;
+    --color-highlight: #2241F7;
     --color-text-main: #333333;
     --color-bg-white: #FFFFFF;
 }
 
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    padding: 50px 0px;
 }
 
 body {
@@ -55,4 +54,14 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
+}
+.hero {
+    background-color: var(--color-primary);
+    color: #fff;
+}
+.hero p {
+color: var( --color-bg-white);
+}
+.display-2 {
+    color: var( --color-bg-white);
 }
