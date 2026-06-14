@@ -153,3 +153,51 @@ color: var( --color-bg-white);
 .btn-submit:active {
     transform: scale(0.98);
 }
+
+.map-section .section-title {
+    color: var(--color-primary); 
+}
+
+.map-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+.map-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* ==========================================
+   SEKCJA MAPA - PEŁNA SZEROKOŚĆ (FULLSCREEN)
+   ========================================== */
+.map-section .section-title {
+    color: var(--color-primary); /* Wykorzystuje Twój kolor #3D488A z :root */
+}
+
+/* Kontener rozciągnięty na 100% szerokości z zachowaniem proporcji panoramicznych */
+.map-fullscreen {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    aspect-ratio: 21 / 9; /* Szersza proporcja kinowa, idealna do rozciągnięcia na pełny ekran */
+}
+
+.map-fullscreen iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Dostosowanie proporcji na telefonach, żeby mapa nie była zbyt wąskim paskiem */
+@media (max-width: 767.98px) {
+    .map-fullscreen {
+        aspect-ratio: 4 / 3; /* Na smartfonach mapa będzie wyższa i wygodniejsza w obsłudze */
+    }
+}
