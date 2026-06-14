@@ -55,6 +55,22 @@ img {
     height: auto;
     display: block;
 }
+
+#categories {
+    background-color: var(--color-secondary);
+}
+
+.category-icon {
+    color: var(--color-primary);
+}
+
+#categories .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#categories .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
 .hero {
     background-color: var(--color-primary);
     color: #fff;
