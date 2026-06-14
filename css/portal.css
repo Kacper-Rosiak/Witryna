@@ -208,3 +208,29 @@ color: var( --color-bg-white);
     font-size: 1rem;
     letter-spacing: 0.5px;
 }
+
+body {
+    position: relative;
+    padding-top: 56px;
+}
+
+#mainNavbar {
+    background-color: var(--color-bg-light);
+}
+
+#mainNavbar .navbar-brand {
+    color: black;
+    font-weight: 700;
+}
+
+#mainNavbar .nav-link {
+    color: black;
+}
+
+#mainNavbar .nav-link.active {
+    color: black;
+    font-weight: 700;
+}
+#mainNavbar{
+    background-color: var(--color-bg-light);
+}
